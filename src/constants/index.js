@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  spark,
+  airflow,
 } from "../assets";
 
 export const navLinks = [
@@ -42,15 +44,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "Data Engineer",
     icon: web,
   },
   {
-    title: "ML Engineer",
+    title: "Cloud & Big Data",
     icon: mobile,
   },
   {
-    title: "Frontend Developer",
+    title: "ETL & Pipeline Design",
     icon: backend,
   },
   {
@@ -61,12 +63,16 @@ const services = [
 
 const technologies = [
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Apache Spark",
+    icon: spark,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Apache Airflow",
+    icon: airflow,
+  },
+  {
+    name: "Git",
+    icon: git,
   },
   {
     name: "MongoDB",
@@ -84,10 +90,22 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-
 ];
 
 const experiences = [
+  {
+    title: "Data Engineer",
+    company_name: "TO THE NEW - Noida, India",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "January 2026 – Present",
+    points: [
+      "Designed and implemented cloud-based data pipelines on AWS using S3, EC2, Glue, EMR, Lambda, Athena, and PySpark to optimize big data processing and cloud data warehousing.",
+      "Developed scalable ETL pipelines using Apache Airflow to automate complex data ingestion, transformation, and workflow scheduling.",
+      "Built real-time Kafka streaming architecture evaluating GPS and sensor telemetry data against geofences and speed limits for driver safety strike penalties.",
+      "Automated daily fuel consumption auditing and monthly rate-deduction reports using Apache Airflow orchestrating Egress pipelines from S3 Delta layers into PostgreSQL.",
+    ],
+  },
   {
     title: "VCIS Intern",
     company_name: "University of Delhi - Dean Students' Welfare",
@@ -107,7 +125,7 @@ const testimonials = [
   {
     testimonial:
       "Tushar demonstrated exceptional skills in both technical development and research during his time with us.",
-    name: "Prof.	Ravinder	Kumar",
+    name: "Prof.\tRavinder\tKumar",
     designation: "Dean",
     company: "Culture Council Department",
   },
@@ -129,29 +147,54 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Notes App",
+    name: "OmniRoute: Smart Logistics Engine",
     description:
-      "Full-stack MERN application for managing personal notes with secure authentication. Features include Create, Read, Update, Delete operations and JWT-based authentication for seamless user experience.",
+      "Enterprise-grade Data Lakehouse architecture for ingesting and processing high-velocity telemetry data from a global fleet of delivery vehicles. Features batch pipelines with SCD Type 2 logic, real-time Kafka streaming for driver safety, and automated fuel auditing with Airflow-orchestrated egress into PostgreSQL.",
     tags: [
       {
-        name: "react",
+        name: "pyspark",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "kafka",
         color: "green-text-gradient",
       },
       {
-        name: "express",
+        name: "airflow",
         color: "pink-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "aws",
         color: "orange-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/tushar-1800/Notes_app",
+    source_code_link: "https://github.com/tushar-1800/Omniroute",
+  },
+  {
+    name: "Nimbus Data Accelerator",
+    description:
+      "Robust data validation, profiling, and quality check framework as part of an enterprise data accelerator pipeline. Features EMR-based PySpark workflows with Amazon Deequ for automated data quality audits, automated S3 report management, Slack notifications, and comprehensive JSON/HTML profiling reports.",
+    tags: [
+      {
+        name: "pyspark",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "airflow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws-emr",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "python",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/tushar-1800",
   },
   {
     name: "Lung Disease Prediction",
@@ -171,7 +214,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: tripguide,
     source_code_link: "https://drive.google.com/file/d/1RBuVv7THN1iJ-iZbh-hsg4IHvVJDMLm5/view",
   },
   {
@@ -196,29 +239,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://www.parikalan.in/",
-  },
-  {
-    name: "Culture Council Department Website",
-    description:
-      "Developed a simple yet functional website for the Culture Council Department of Delhi University. Features include information on cultural events, initiatives, and student participation with clean UI and easy navigation.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
     image: carrent,
-    source_code_link: "https://github.com/tushar-1800/Culture-Council-Website.git",
+    source_code_link: "https://www.parikalan.in/",
   },
 ];
 

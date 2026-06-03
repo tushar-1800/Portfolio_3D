@@ -20,8 +20,8 @@ const Hero = () => {
             <span className='text-[#915EFF]'>Tushar Katyal</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            MCA Student & Full Stack Developer <br className='sm:block hidden' />
-            specializing in MERN Stack & Machine Learning
+            Data Engineer at TO THE NEW <br className='sm:block hidden' />
+            specializing in PySpark, AWS & Big Data Pipelines
           </p>
         </div>
       </div>

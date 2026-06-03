@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import spark from "./tech/spark.svg";
+import airflow from "./tech/airflow.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -52,6 +54,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  spark,
+  airflow,
   meta,
   shopify,
   starbucks,

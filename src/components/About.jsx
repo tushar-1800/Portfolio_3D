@@ -47,14 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm an MCA student at GGSIPU, Delhi, with a strong foundation in software engineering
-        and full-stack development. With a B.Sc in Computer Science (9.365 GPA), I specialize in
-        building robust applications using the MERN stack (MongoDB, Express.js, React, Node.js).
-        My experience spans from developing full-stack web applications to implementing machine
-        learning models for healthcare prediction. I've worked on real-world projects including
-        the Culture Council Department website for Delhi University and published research on
-        Python applications in physical chemistry. As a Student of the Year awardee, I combine
-        technical excellence with leadership and innovation to create impactful solutions.
+        I'm a Data Engineer at TO THE NEW with a Gold Medal in MCA (Software Engineering) from
+        GGSIPU, Delhi. I specialize in designing and building cloud-based data pipelines on AWS
+        using PySpark, Glue, EMR, Athena, and Kafka for real-time and batch processing at scale.
+        My expertise spans ETL pipeline orchestration with Apache Airflow, Data Lakehouse
+        architectures, and automated data quality frameworks. I've co-authored published research
+        in Springer's Resonance journal on computational chemistry with Python. As a University
+        Gold Medalist and Student of the Year awardee, I bring a unique blend of academic
+        excellence, technical depth, and a passion for building robust data infrastructure.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
